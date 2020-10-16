@@ -1,0 +1,114 @@
+body{
+    margin:0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0a0a0f;
+    padding: 30px;
+    max-width: 100%;
+   
+}
+
+button {
+    background-color:#29293d; 
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 20px 63px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+button:hover {
+    background-color: #0a0a0f;
+    color: white;
+  }
+
+.boxlogo{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+.picbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+
+.picboxtop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    max-width: 100%;
+}
+
+
+
+.image {
+    display: flex;
+    background-color:#29293d;
+    padding: 30px;
+    margin: 20px;
+    align-self: center;
+    max-width: 100%;
+}
+
+
+.imagetop {
+    background-color:#29293d;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: center;
+}
+
+.missionbox {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    background-color:#29293d;
+    max-width: 100%;
+
+}
+
+.missiontext {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    background-color:#29293d;
+}
