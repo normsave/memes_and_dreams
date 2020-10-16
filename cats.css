@@ -91,8 +91,31 @@ button:hover {
     padding: 5px;
     background-color:#29293d;
     max-width: 100%;
+    
 
 }
+
+
+
+
+h1, h2, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: gainsboro;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
 
 .missiontext {
     color: white;
@@ -100,6 +123,9 @@ button:hover {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    align-self: center;
+    padding: 10px;
+
 }
 
 .copyright {
